@@ -1,0 +1,40 @@
+# Visual Studio / .NET
+bin/
+obj/
+.vs/
+.localpilot/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+build/
+bld/
+[Oo]bj/
+[Bb]in/
+
+# NuGet
+*.nupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+
+# ReSharper
+_ReSharper*/
+*.DotSettings.user
+
+# Test results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Secrets (если у тебя есть локальные конфиги с паролями)
+appsettings.Development.json
+*.local.json
